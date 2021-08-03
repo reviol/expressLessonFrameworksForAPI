@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class TestDataProvider extends TestNGCitrusTestRunner {
+public class TestDataProviderGetUser extends TestNGCitrusTestRunner {
 
     private TestContext context;
 
@@ -20,9 +20,14 @@ public class TestDataProvider extends TestNGCitrusTestRunner {
                 new Object[]{"1","George", "Bluth"},
                 new Object[]{"2","Janet", "Weaver"},
                 new Object[]{"3","Emma", "Wong"},
+                new Object[]{"4","Eve", "Holt"},
                 new Object[]{"5","Charles", "Morris"},
+                new Object[]{"6","Tracey", "Ramos"},
                 new Object[]{"7","Michael", "Lawson"},
+                new Object[]{"8","Lindsay", "Ferguson"},
+                new Object[]{"9","Tobias", "Funke"},
                 new Object[]{"10","Byron", "Fields"},
+                new Object[]{"11","George", "Edwards"},
                 new Object[]{"12","Rachel", "Howell"},
         };
     }
