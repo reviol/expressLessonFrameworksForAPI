@@ -14,7 +14,7 @@ public class TestMock extends TestNGCitrusTestRunner {
 
     private TestContext context;
 
-    @Test(description = "Получение информации о пользователе")
+    @Test(description = "Получение информации о пользователе", enabled=false)
     @CitrusTest
     public void getTestActions() {
         this.context = citrus.createTestContext();

@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.0" tests="22" errors="0" skipped="0" failures="2">
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
-    <testcase name="TestDataProviderCreateUser.getTestActions" classname="cs.TestDataProviderCreateUser" time="0.0"/>
+<testsuite name="cs.TestDataProviderGetUser" time="0.0" tests="12" errors="0" skipped="0" failures="2">
     <testcase name="TestDataProviderGetUser.getTestActions" classname="cs.TestDataProviderGetUser" time="0.0"/>
     <testcase name="TestDataProviderGetUser.getTestActions" classname="cs.TestDataProviderGetUser" time="0.0">
       <failure type="com.consol.citrus.exceptions.TestCaseFailedException" message="Validation failed: Values not equal for element &apos;$.data.first_name&apos;, expected &apos;Janet1&apos; but was &apos;Janet&apos;">

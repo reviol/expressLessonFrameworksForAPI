@@ -13,7 +13,7 @@ public class Test extends TestNGCitrusTestRunner {
 
     private TestContext context;
 
-    @org.testng.annotations.Test(description = "Получение информации о пользователе")
+    @org.testng.annotations.Test(description = "Получение информации о пользователе", enabled=false)
     @CitrusTest
     public void getTestActions() {
         this.context = citrus.createTestContext();
